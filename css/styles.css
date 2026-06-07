@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   min-height: 100vh;
   margin: 0;
+  background: #cfc7c7;
 }
 
 .nav {
@@ -25,7 +26,7 @@ body {
 }
 
 .box {
-  background: rgb(45, 97, 45);
+  background: rgb(97, 132, 97);
   border-radius: 8px ;
   overflow: hidden;
   transition: transform 0.5s ease;

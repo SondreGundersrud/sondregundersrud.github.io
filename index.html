@@ -1,37 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rainy Days Store</title>
-    <link rel="stylesheet" href="/css/styles.css"/>
-</head>
-<body>
-  <header>
-        <nav class="nav">
-          <h1><a href="./Views/Home/index.html">Rainy Days</a></h1>
-          <div class="filter-group">
-            <label for="gender">Gender:</label>
-            <select id="gender">
-              <option value="all">All</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="unisex">Unisex</option>
-            </select>
-            <label for="category">Category:</label>
-            <select id="category">
-              <option value="all">All</option>
-              <option value="outdoors">Outdoors</option>
-              <option value="training">Training</option>
-            </select>
-            <i class="fa-solid fa-cart-shopping"></i><a href="./views/checkout/index.html">Cart (<span id="cart-count">0</span>)</a>
-            </div>
-          </nav>    
-  </header>
-  <main>
-    <div id="container" class="container"></div>
-  </main>
-<script src="/js/pages/checkout.js"></script>
-<script src="/js/pages/home.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Rainy Days Store</title>
+		<link rel="stylesheet" href="/css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<h1><a href="./index.html">Rainy Days</a></h1>
+				<div class="filter-group">
+					<label for="gender">Gender:</label>
+					<select id="gender">
+						<option value="all">All</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="unisex">Unisex</option>
+					</select>
+					<label for="category">Category:</label>
+					<select id="category">
+						<option value="all">All</option>
+						<option value="outdoors">Outdoors</option>
+						<option value="training">Training</option>
+					</select>
+					<i class="fa-solid fa-cart-shopping"></i
+					><a href="/views/checkout/index.html"
+						>Cart (<span id="cart-count">0</span>)</a
+					>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div id="container" class="container"></div>
+		</main>
+		<script src="/js/pages/checkout.js"></script>
+		<script src="/js/pages/home.js"></script>
+	</body>
 </html>
